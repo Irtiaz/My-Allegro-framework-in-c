@@ -5,4 +5,4 @@ extern const int width, height;
 extern int mouseX, mouseY;
 
 
-#endif // !GLOBAL_H
+#endif
