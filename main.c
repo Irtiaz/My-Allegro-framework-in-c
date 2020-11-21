@@ -54,7 +54,7 @@ int main(int argc, char **argv) {
 					break;
 
 				case ALLEGRO_EVENT_MOUSE_BUTTON_DOWN :
-					mousePressed(event);
+					mousePressed(event.mouse.button & 1);
 					break;
 
 				
