@@ -18,7 +18,7 @@ void draw() {
 
 
 
-void mousePressed(ALLEGRO_EVENT event) {
+void mousePressed(bool lmb) {
 	//Handle mouse click events here
 }
 	
